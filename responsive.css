@@ -1,0 +1,62 @@
+@media only screen and (min-width: 375px) and (max-width: 425px)
+{.img {
+    width: 104%;
+    height: auto;
+}
+.mainHeader_img {
+    padding: 20px 0;
+    width: 230px;
+}
+.PosterText h1 {
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+    line-height: 1em;
+    margin-top: 15px;
+    margin-left: 42px;
+    margin-right: 0;
+}
+.commonService {
+    width: 85.3%;
+    float: left;
+    margin: 1%;
+}
+.inner_footer {
+    margin: 1%;
+    float: left;
+    width: 90%;
+}
+}
+  
+@media only screen and (min-width: 320x) and (max-width: 374px)
+{
+    .mean-container .mean-bar {
+        float: left;
+        width: 98%;
+        position: relative;
+        background: #0c1923;
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+    }
+    .PosterText h1 {
+        font-size: 30px;
+        color: black;
+        font-weight: normal;
+        line-height: 1em;
+        margin-top: 3px;
+        margin-left: 45px;
+        margin-right: 0;
+    }
+    .commonService {
+        width: 85.3%;
+        float: left;
+        margin: 1%;
+    }
+    .inner_footer {
+        margin: 1%;
+        float: left;
+        width: 92%;
+    }
+}
+

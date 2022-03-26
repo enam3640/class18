@@ -1,0 +1,421 @@
+    /*  ===============================
+             *** COMMON CSS ***
+    ================================== */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Georgia sans-serif;
+   
+}
+body{
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5em;
+ }
+ .Container{
+    max-width: 960px;
+    width: 96%;
+    margin: 0px auto;
+ }
+ img{
+    width: 100%;
+    height: auto;
+ }
+
+     /*=================================
+             ***  HEADER CSS ***
+    ===================================*/
+
+.headerArea{
+    width: 100%;
+    clear: both;
+}
+#topHeaderArea{
+    background-color:#CC3333;
+    width: 100%;
+    padding: 15px 0;
+}
+.innerTopHeader{
+    overflow: hidden;
+}
+.minimenu{
+    width: 70%;
+    float: left;
+}
+.minimenu ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.minimenu ul li{
+    margin-right: 10px;
+   display: inline-block;
+}
+.minimenu ul li a{
+    color: white;
+    font-size: 14px;
+}
+.minimenu ul li a:hover{
+    text-shadow: 2px 4px 4px ;
+}
+.searchArea{
+    width: 30%;
+    float: right;
+}
+
+.searchArea form{
+    width: 96%;
+    max-width: 210px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 3%;
+    float: right;
+}
+.searchArea form input{
+    width: 75%;
+    float: left;
+    border: none;
+    height: 25px;
+}
+.searchArea form input[type="Submit"]{
+    width: 25%;
+    background: url(https://raw.githubusercontent.com/Junait-Shipon/shipon/main/icon/search.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+ }
+ 
+ /*=================================
+        *** DROP DAWN MENU CSS ***
+   ===================================*/
+.DropDownMenu{
+    background-color: #333333;
+    border-radius: 5px;
+    margin-top: 1px;
+    width: 100%;
+}
+.DropDownMenu ul{
+    list-style: none;
+    text-align: center;#
+
+}
+.DropDownMenu ul li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.DropDownMenu ul li a{
+    color: white;
+}
+.DropDownMenu ul li:hover a{
+    color: red;
+}
+.DropDownMenu ul li:hover ul li a{
+    color: yellow;
+    right: 500px;
+    margin: 0;
+    padding: 0;
+}
+.DropDownMenu ul li ul{
+    position: absolute;
+    background: #333333;
+    width: 116%;
+    left:-999999999999px;
+
+}
+
+.DropDownMenu ul li ul ul{
+    width: 100%;
+    left:-999999999999px;
+    top: 0;
+}
+.DropDownMenu ul li ul li:hover a{
+    color: red;
+}
+.DropDownMenu ul ul li:hover li a {
+   
+    color: white;
+}
+
+.DropDownMenu ul ul ul li a:hover{
+    color: red;
+}
+.DropDownMenu ul ul{
+    left: 9px;
+}
+.DropDownMenu ul li:hover ul{
+    left: 0px;
+}
+.DropDownMenu ul li:hover ul ul{
+     left: -999999999999px;
+}
+.DropDownMenu ul ul li:hover ul{
+     left: 100%;
+}
+ 
+
+  /*=================================
+          *** SOCIAL CSS ***
+   ===================================*/
+
+.mainHeader_img{
+    padding: 40px 0;
+    width: 230px ;
+}
+.socialIcon ul{
+    text-align: right;
+    list-style: none;
+}
+.socialIcon ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.socialIcon ul i{
+    color: white;
+    background: #333333;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.socialIcon .fa-linkedin-in:hover{
+    background: #0488B9;
+}
+.socialIcon .fa-twitter:hover{
+    background: #00AFF0;
+}
+.socialIcon .fa-pinterest:hover{
+    background: #E11A21;
+}
+.socialIcon .fa-google-plus-g:hover{
+    background: #EB2E2B;
+}
+.socialIcon .fa-rss:hover{
+    background: #E08F21;
+}
+
+
+  /*=================================
+        *** SLIDER CSS ***
+   ===================================*/
+
+.items{
+    position: relative;
+}
+.Slider_caption{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+        
+}
+.Slider_caption h1{
+    text-align: center;
+    top: 50%;
+    color: white;
+    font-size: 23px;
+}
+.button{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+
+}
+
+  /*=================================
+        *** POSTER CSS ***
+   ===================================*/
+.Poster{
+  width: 100%;
+
+}
+.Poster_img{
+    width: 41.7%;
+    float: left;
+   
+}
+.Poster img{
+    float: left;
+
+}
+
+.PosterText{
+    width: 55%;
+    float: right;
+}
+.PosterText h1{
+    font-size: 77px;
+    color: black;
+    font-weight: normal;
+    line-height: 1em;
+    margin-top: 120px;
+    margin-left: 45px;
+    margin-right: 0;
+}
+.PosterText a{
+    float: right;
+    color: #CC3333;
+}
+
+  /*=================================
+        *** SERVICE CSS ***
+  ===================================*/
+
+#serviceArea{
+    margin: 50px 0 0;
+    clear: both;
+    background: #F2F2F2; 
+    max-width: 960px;
+    width: 96%;
+    margin: 0px auto;
+}
+.service{
+    
+    height: 200%;
+}
+
+.commonService{
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.commonService h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 50px 0;
+   }
+
+.commonService p{
+    color: #999999;
+    }
+.commonService a{
+    color: #CC3333;
+    float: right;
+    margin-top: 20px;
+}
+.inner_service_section{
+     margin-top: 30px;
+ }
+.service_section img{
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.about_section{
+
+}
+.about_section img{
+    max-width: 290px;
+    max-height: 140px;
+    padding: 5px;
+   }
+.speach_section h5{
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+}
+.speach_section h5 i{
+   font-size: 50px;
+   color: #D4D4D4;
+}
+ 
+
+ /*=================================
+        *** FOOTER CSS ***
+  ===================================*/
+#FooterArea{
+    background: white;
+    height: 465px;
+}
+.inner_footer hr{
+    margin: 30px 0;
+}
+.inner_footer{
+    margin: 1%;
+    float: left;
+    width: 23% ;
+}
+.inner_footer h3{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.inner_footer a{
+    color: #CC3333;
+}
+.inner_LATEST_BLOG{
+    margin: 20px 0;
+    line-height: 1em;
+    clear: both;
+}
+.inner_LATEST_BLOG a{
+    float: right;
+    margin: 15px 0;
+
+}
+.inner_LATEST_BLOG h5{
+    font-size: 17px;
+}
+.inner_LATEST_BLOG h6 a{
+    float: none;
+}
+.inner_LATEST_BLOG h6{
+   font-weight: normal;
+}
+.inner_LATEST_BLOG p{
+   margin-top: 15px;
+}
+
+.QUICK_LINKS ul li{
+    list-style: none;
+    border-bottom: 1px solid #D4D4D4 ;
+    margin: 3px 0;
+}
+.QUICK_LINKS ul li:last-child{
+    border: none;
+}
+.QUICK_LINKS ul li i{
+    margin-right: 10px;
+    color: #666666;
+}
+.CONTACT_US input{
+    background: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.CONTACT_US textarea{
+    background: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 110px;
+    width: 100%;
+}
+
+.CONTACT_US input[type="Submit"]{
+    background: #F2F2F2;
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 5px;
+    color: #CC3333;
+}
+.CONTACT_US input[type="Submit"]:hover{
+    cursor: pointer;
+    background: #CC3333;
+    color: black;
+}
+
+.copy_right{
+    float: left;
+}
+.template_author{
+    float: right;
+}
